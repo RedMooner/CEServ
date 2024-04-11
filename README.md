@@ -1,6 +1,23 @@
 # CEServ
 Command Executor server
 # The server executing the commands
+## Description of the CommandExecutor Server
+
+CommandExecutor Server (Server) is a server application capable of accepting commands via GET requests and executing them for the user. After executing the command, the server returns the appropriate response.
+
+#### Features:
+- Accepts commands in the format of GET requests
+- Executes commands on a physical server
+- Sends responses after completing the command execution
+- Can be customized for various tasks and functionality
+
+#### Usage example:
+1. Send a GET request to the server with the command to be executed
+2. The server will execute the command on the physical server
+3. After completion of the execution, the server will send a response with the result of the command
+
+CEServ provides a convenient and flexible system for executing commands and receiving responses, which makes it a universal tool for automating and managing tasks on the server.
+
 
 # Introduction
 
